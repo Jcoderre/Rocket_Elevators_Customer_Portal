@@ -143,3 +143,4 @@ C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\view_data.cshtml.g.cs

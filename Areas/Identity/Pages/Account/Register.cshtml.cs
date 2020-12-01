@@ -21,7 +21,6 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
 
     
     {
-        
         public IActionResult OnGet()
         {
             return RedirectToPage("Login");
@@ -31,7 +30,7 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
         {
             return RedirectToPage("Login");
         }
-        
+
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;

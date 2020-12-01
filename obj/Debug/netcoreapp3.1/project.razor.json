@@ -14437,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\view_data.cshtml",
+      "TargetPath": "Views\\Home\\view_data.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
