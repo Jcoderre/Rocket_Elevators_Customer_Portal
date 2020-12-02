@@ -13,11 +13,6 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
     public class RegisterConfirmationModel : PageModel
     {
 
-        public IActionResult OnGet()
-        {  
-        return Page();
-        }
-
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IEmailSender _sender;
 
