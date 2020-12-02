@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\columns.cshtml",
+      "TargetPath": "Views\\Home\\columns.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14424,11 @@
     {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\batteries.cshtml",
+      "TargetPath": "Views\\Home\\batteries.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14444,6 +14454,11 @@
     {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\buildings.cshtml",
+      "TargetPath": "Views\\Home\\buildings.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14474,6 +14489,11 @@
     {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\elevators.cshtml",
+      "TargetPath": "Views\\Home\\elevators.cshtml",
       "FileKind": "mvc"
     },
     {

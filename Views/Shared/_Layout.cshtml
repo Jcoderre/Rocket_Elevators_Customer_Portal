@@ -115,71 +115,44 @@
                     with font-awesome or any other icon font library -->
                 <li class="nav-header">YOUR SERVICES</li>
                 <div class="nav-item">
-                    <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
-                    <p>
-                        Dashboard
-                    </p>
-                    </a>
+                    @Html.ActionLink("Dashboard","index")
                 </div>
                 <li class="nav-header">INTERVENTION</li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-edit"></i>
-                    <p>
-                        Create Intervention
-                    </p>
-                    </a>
+                    @Html.ActionLink("Create Intervention","intervention_form")
                 </li>
                 <li class="nav-header">YOUR DATA</li>
-                    <li class="nav-item">
-                        <a href="~/view_data.cshtml" class="nav-link"> 
-                        @Html.ActionLink("View Data","view_data")
+                    <li class="nav-item"> 
                         <i class="nav-icon fas fa-chart-pie"></i>
-                        <p>
-                            View Data
-                        </p>
-                        </a>
+                        @Html.ActionLink("View Data","view_data")
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-table"></i>
-                        <p>
-                            Manage Data
-                        </p>
-                        </a>
+                        @Html.ActionLink("Manage Data","manage_data")
                     </li>
                 </li>
                 <li class="nav-header">YOUR OWNINGS</li>
                     <li class="nav-item">
-                        <a href="../examples/lockscreen.html" class="nav-link">
                         <i class="far fa-circle nav-icon text-info"></i>
-                        <p>Buildings</p>
-                        </a>
+                        @Html.ActionLink("Buildings","buildings")
                     </li>
                     <li class="nav-item">
-                        <a href="../examples/legacy-user-menu.html" class="nav-link">
                         <i class="far fa-circle nav-icon text-info"></i>
-                        <p>Batteries</p>
-                        </a>
+                        @Html.ActionLink("Batteries","batteries")
                     </li>
                     <li class="nav-item">
-                        <a href="../examples/language-menu.html" class="nav-link">
                         <i class="far fa-circle nav-icon text-info"></i>
-                        <p>Columns</p>
-                        </a>
+                        @Html.ActionLink("Columns","columns")
                     </li>
                     <li class="nav-item">
-                        <a href="../examples/404.html" class="nav-link">
                         <i class="far fa-circle nav-icon text-info"></i>
-                        <p>Elevators</p>
-                        </a>
+                        @Html.ActionLink("Elevators","elevators")
                     </li>
                     <li class="nav-item">
-                        <a href="../examples/404.html" class="nav-link">
                         <i class="far fa-circle nav-icon text-danger"></i>
-                        <p>Interventions</p>
-                        </a>
+                        @Html.ActionLink("Interventions","interventions_view")
                     </li>
                     </ul>
                 </li>

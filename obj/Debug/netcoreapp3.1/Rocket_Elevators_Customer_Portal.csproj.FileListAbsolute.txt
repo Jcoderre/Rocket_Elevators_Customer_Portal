@@ -146,3 +146,7 @@ C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\view_data.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\intervention_form.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\manage_data.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\batteries.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\columns.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\elevators.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\buildings.cshtml.g.cs
