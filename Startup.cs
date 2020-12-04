@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Rocket_Elevators_Customer_Portal.Services;
 
 namespace Rocket_Elevators_Customer_Portal
 {
@@ -24,6 +25,10 @@ namespace Rocket_Elevators_Customer_Portal
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddHttpClient<IBuildingService, BuildingService>(client =>
+            {
+                client.BaseAddress = new Uri("https://rocket-elevator-restapi.azurewebsites.net/api/building/all");
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -54,5 +59,6 @@ namespace Rocket_Elevators_Customer_Portal
                 endpoints.MapRazorPages();
             });
         }
+
     }
 }

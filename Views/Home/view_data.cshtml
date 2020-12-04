@@ -1,6 +1,12 @@
 @page
 @using RazorPagesIntro.Pages
-@model ViewModel
+@* @model ViewModel *@
+@model IEnumerable<buildingview> 
+
+@{
+    ViewBag.Title = "View_Data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -82,6 +88,38 @@
         <!-- /.row -->
       </div><!-- /.container-fluid -->
     </section>
+    <h2>Index</h2>
+
+  <p>
+      @Html.ActionLink("Create New", "Create")
+  </p>
+  <table class="table">
+      <tr>
+          <th>
+              @Html.DisplayNameFor(model => model.Id)
+          </th>
+          <th>
+              @Html.DisplayNameFor(model => model.address_of_the_building)
+          </th>
+      <th></th>
+      </tr>
+
+      @foreach (var item in Model) {
+          <tr>
+              <td>
+                  @Html.DisplayFor(modelItem => item.Id)
+              </td>
+          <td>
+              @Html.DisplayFor(modelItem => item.address_of_the_building)
+          </td>
+          <td>
+              @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+              @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+          </td>
+          </tr>
+      }
+
+  </table>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
