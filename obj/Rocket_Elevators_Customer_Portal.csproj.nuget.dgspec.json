@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj": {}
+    "C:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj": {
+    "C:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
+        "projectUniqueName": "C:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
         "projectName": "Rocket_Elevators_Customer_Portal",
-        "projectPath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
+        "projectPath": "C:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
         "packagesPath": "C:\\Users\\Joey\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\obj\\",
+        "outputPath": "C:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joey\\AppData\\Roaming\\NuGet\\NuGet.Config",

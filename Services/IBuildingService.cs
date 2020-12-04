@@ -7,7 +7,7 @@ using Rocket_Elevators_Customer_Portal.Models;
 namespace Rocket_Elevators_Customer_Portal.Services
 {
     public interface IBuildingService {
-        Task<IEnumerable<Building>> GetBuildings();
+        Task<IEnumerable<buildingview>> GetBuildings();
     }
     
 }

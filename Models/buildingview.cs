@@ -1,4 +1,4 @@
-public class Building
+public class buildingview
 {
     public int Id { get; set; }
     public string address_of_the_building { get; set; }

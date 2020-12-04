@@ -31,33 +31,33 @@ namespace Rocket_Elevators_Customer_Portal.Controllers
 
         public IActionResult view_data()
         {
-            IEnumerable<Battery> batteries = null;
+            IEnumerable<buildingview> buildings = null;
 
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://localhost:64189/api/");
+                client.BaseAddress = new Uri("https://rocket-elevator-restapi.azurewebsites.net/api/building/all");
                 //HTTP GET
-                var responseTask = client.GetAsync("student");
+                var responseTask = client.GetAsync("buildings");
                 responseTask.Wait();
 
                 var result = responseTask.Result;
                 if (result.IsSuccessStatusCode)
                 {
-                    var readTask = result.Content.ReadAsAsync<IList<Battery>>();
+                    var readTask = result.Content.ReadAsAsync<IList<buildingview>>();
                     readTask.Wait();
 
-                    batteries = readTask.Result;
+                    buildings = readTask.Result;
                 }
                 else //web api sent error response 
                 {
                     //log response status here..
 
-                    batteries = Enumerable.Empty<Battery>();
+                    buildings = Enumerable.Empty<buildingview>();
 
                     ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
                 }
             }
-            return View(batteries);
+            return View(buildings);
         }
 
         public IActionResult manage_data()

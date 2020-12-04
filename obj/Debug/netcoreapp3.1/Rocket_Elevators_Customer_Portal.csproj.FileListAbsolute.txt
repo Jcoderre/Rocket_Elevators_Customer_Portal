@@ -151,3 +151,5 @@ C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\elevators.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\buildings.cshtml.g.cs
 C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\interventions_view.cshtml.g.cs
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Joey\Desktop\Codeboxx\Week11\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

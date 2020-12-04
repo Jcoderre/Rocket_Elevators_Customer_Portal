@@ -17,7 +17,7 @@ namespace Rocket_Elevators_Customer_Portal.Services
             this.HttpClient = httpClient;
 
         }
-        public Task<IEnumerable<Building>> GetBuildings()
+        public Task<IEnumerable<buildingview>> GetBuildings()
         {
             throw new NotImplementedException();
         }
