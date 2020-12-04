@@ -14427,11 +14427,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\intervention_view.cshtml",
-      "TargetPath": "Views\\Home\\intervention_view.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\batteries.cshtml",
       "TargetPath": "Views\\Home\\batteries.cshtml",
       "FileKind": "mvc"
@@ -14469,6 +14464,11 @@
     {
       "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\intervention_form.cshtml",
       "TargetPath": "Views\\Home\\intervention_form.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Joey\\Desktop\\Codeboxx\\Week11\\Rocket_Elevators_Customer_Portal\\Views\\Home\\interventions_view.cshtml",
+      "TargetPath": "Views\\Home\\interventions_view.cshtml",
       "FileKind": "mvc"
     },
     {
