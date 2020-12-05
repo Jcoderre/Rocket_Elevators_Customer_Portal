@@ -29,37 +29,6 @@ namespace Rocket_Elevators_Customer_Portal.Controllers
             return View();
         }
 
-        public IActionResult view_data()
-        {
-            IEnumerable<buildingview> buildings = null;
-
-            using (var client = new HttpClient())
-            {
-                client.BaseAddress = new Uri("https://rocket-elevator-restapi.azurewebsites.net/api/building/all");
-                //HTTP GET
-                var responseTask = client.GetAsync("buildings");
-                responseTask.Wait();
-
-                var result = responseTask.Result;
-                if (result.IsSuccessStatusCode)
-                {
-                    var readTask = result.Content.ReadAsAsync<IList<buildingview>>();
-                    readTask.Wait();
-
-                    buildings = readTask.Result;
-                }
-                else //web api sent error response 
-                {
-                    //log response status here..
-
-                    buildings = Enumerable.Empty<buildingview>();
-
-                    ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
-                }
-            }
-            return View(buildings);
-        }
-
         public IActionResult manage_data()
         {
             return View();
