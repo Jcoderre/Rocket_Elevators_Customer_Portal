@@ -2,7 +2,7 @@
 // ------------- GET SECTION -------------- //
 // ----- BATTERY ----- //
 var batt_xhr = new XMLHttpRequest();
-batt_xhr.onload = function() {
+batt_xhr.onreadystatechange = function() {
      if(this.readyState == 4 && this.status == 200){
           var parsedResponse = JSON.parse(batt_xhr.responseText);
           var battery_result = "";
@@ -29,7 +29,7 @@ batt_xhr.send();
 
 // ---- CUSTOMER ----//
 var customer_xhr = new XMLHttpRequest();
-customer_xhr.onload = function() {
+customer_xhr.onreadystatechange = function() {
      if(this.readyState == 4 && this.status == 200){
           var parsedResponse = JSON.parse(customer_xhr.responseText);
           var customer_result = "";
@@ -59,7 +59,7 @@ customer_xhr.send();
 
 // -----  Elevator --- //
 var elevator_xhr = new XMLHttpRequest();
-elevator_xhr.onload = function() {
+elevator_xhr.onreadystatechange = function() {
      if(this.readyState == 4 && this.status == 200){
           var parsedResponse = JSON.parse(elevator_xhr.responseText);
           var elevator_result = "";
@@ -89,7 +89,7 @@ elevator_xhr.send();
 
 // --- Column ---- //
 var column_xhr = new XMLHttpRequest();
-column_xhr.onload = function() {
+column_xhr.onreadystatechange = function() {
      if(this.readyState == 4 && this.status == 200){
           var parsedResponse = JSON.parse(column_xhr.responseText);
           var column_result = "";
@@ -105,8 +105,7 @@ column_xhr.onload = function() {
                column_result += "<td>" + "--------------------------------------------------" + "</td><br>"
           }
           document.getElementById('columntest').innerHTML = column_result;
-
-  }
+     }
 };
 column_xhr.open('GET', 'https://rocket-elevator-restapi.azurewebsites.net/api/column/all');
 column_xhr.send();
