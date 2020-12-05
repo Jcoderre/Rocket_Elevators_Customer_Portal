@@ -57,7 +57,7 @@ namespace Rocket_Elevators_Customer_Portal.Controllers
                     ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
                 }
             }
-            return View(buildings);
+            return View();
         }
 
         public IActionResult manage_data()
