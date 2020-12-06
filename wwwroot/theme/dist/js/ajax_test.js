@@ -162,3 +162,28 @@ intervention_xhr.onreadystatechange = function() {
 };
 intervention_xhr.open('GET', 'https://rocket-elevator-restapi.azurewebsites.net/api/intervention/all');
 intervention_xhr.send();
+
+
+/// -----  CREATE INTERVENTION ------- ///
+var intervention_xhr = new XMLHttpRequest();
+intervention_xhr.onreadystatechange = function() {
+     if(this.readyState == 4 && this.status == 200){
+          var parsedResponse = JSON.parse(intervention_xhr.responseText);
+          var intervention_result = "";
+          for(var i in parsedResponse){
+                 
+               intervention_result += "<tr>";
+               intervention_result += "<td>" + "ID: " + parsedResponse[i].id + "</td><br>";
+               intervention_result += "<td>" + " Intervention Start: " + parsedResponse[i].interventionStart + "</td><br>";
+               intervention_result += "<td>" + " Intervention Stop: " + parsedResponse[i].interventionStop + "</td><br>";
+               intervention_result += "<td>" + " Result: " + parsedResponse[i].result + "</td><br>";
+               intervention_result += "<td>" + " Report: " + parsedResponse[i].report + "</td><br>";
+               intervention_result += "<td>" + " Status: " + parsedResponse[i].status + "</td><br>";
+               intervention_result += "<td>" + "--------------------------------------------------" + "</td><br>"
+          }
+          document.getElementById('interventiontest').innerHTML = intervention_result;
+
+     }
+};
+intervention_xhr.open('GET', 'https://rocket-elevator-restapi.azurewebsites.net/api/intervention/all');
+intervention_xhr.send();
