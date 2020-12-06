@@ -5,6 +5,13 @@
 In this week we use a new API linked to our web page to create a new admin panel for customer to use.
 
 
+### Language use :
+
+ > C#
+ > Asp.Net
+ > Javascript
+
+
  > Using Ajax to to find data of the other API
 
 
